@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300BEFC71DAEA57000A6FFFD /* TableViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BEFC61DAEA57000A6FFFD /* TableViewControllerCell.swift */; };
+		300BEFC91DAEA79F00A6FFFD /* ConversationListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BEFC81DAEA79F00A6FFFD /* ConversationListTableViewController.swift */; };
+		300BEFCB1DAEA82D00A6FFFD /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300BEFCA1DAEA82D00A6FFFD /* Variables.swift */; };
 		301D539A1DAC0EC3008AF49C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D53991DAC0EC3008AF49C /* AppDelegate.swift */; };
 		301D539C1DAC0EC3008AF49C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D539B1DAC0EC3008AF49C /* ViewController.swift */; };
 		301D539F1DAC0EC3008AF49C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301D539D1DAC0EC3008AF49C /* Main.storyboard */; };
 		301D53A11DAC0EC3008AF49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301D53A01DAC0EC3008AF49C /* Assets.xcassets */; };
 		301D53A41DAC0EC3008AF49C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301D53A21DAC0EC3008AF49C /* LaunchScreen.storyboard */; };
+		301D53AC1DAC21B2008AF49C /* TextFieldWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301D53AB1DAC21B1008AF49C /* TextFieldWithPadding.swift */; };
+		3036375B1DAD1CF100A32377 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3036375A1DAD1CF100A32377 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300BEFC61DAEA57000A6FFFD /* TableViewControllerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerCell.swift; sourceTree = "<group>"; };
+		300BEFC81DAEA79F00A6FFFD /* ConversationListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListTableViewController.swift; sourceTree = "<group>"; };
+		300BEFCA1DAEA82D00A6FFFD /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		301D53961DAC0EC3008AF49C /* MessengerFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		301D53991DAC0EC3008AF49C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		301D539B1DAC0EC3008AF49C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		301D53A01DAC0EC3008AF49C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301D53A31DAC0EC3008AF49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301D53A51DAC0EC3008AF49C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		301D53AB1DAC21B1008AF49C /* TextFieldWithPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldWithPadding.swift; sourceTree = "<group>"; };
+		3036375A1DAD1CF100A32377 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +66,12 @@
 			children = (
 				301D53991DAC0EC3008AF49C /* AppDelegate.swift */,
 				301D539B1DAC0EC3008AF49C /* ViewController.swift */,
+				300BEFC61DAEA57000A6FFFD /* TableViewControllerCell.swift */,
+				3036375A1DAD1CF100A32377 /* SecondViewController.swift */,
 				301D539D1DAC0EC3008AF49C /* Main.storyboard */,
+				300BEFC81DAEA79F00A6FFFD /* ConversationListTableViewController.swift */,
+				300BEFCA1DAEA82D00A6FFFD /* Variables.swift */,
+				301D53AB1DAC21B1008AF49C /* TextFieldWithPadding.swift */,
 				301D53A01DAC0EC3008AF49C /* Assets.xcassets */,
 				301D53A21DAC0EC3008AF49C /* LaunchScreen.storyboard */,
 				301D53A51DAC0EC3008AF49C /* Info.plist */,
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300BEFC91DAEA79F00A6FFFD /* ConversationListTableViewController.swift in Sources */,
+				300BEFCB1DAEA82D00A6FFFD /* Variables.swift in Sources */,
+				3036375B1DAD1CF100A32377 /* SecondViewController.swift in Sources */,
 				301D539C1DAC0EC3008AF49C /* ViewController.swift in Sources */,
+				301D53AC1DAC21B2008AF49C /* TextFieldWithPadding.swift in Sources */,
+				300BEFC71DAEA57000A6FFFD /* TableViewControllerCell.swift in Sources */,
 				301D539A1DAC0EC3008AF49C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +322,7 @@
 				301D53AA1DAC0EC3008AF49C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
